@@ -365,11 +365,13 @@ module.exports = function (grunt) {
                 src: ['<%= paths.releaseBuild %>/**']
             });
 
+            /*
             if (!grunt.option('skip-update')) {
                 grunt.task
                     .run('update_submodules:pinned')
                     .run('subgrunt:init');
             }
+            */
 
             grunt.task
                 .run('clean:built')
