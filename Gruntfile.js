@@ -27,7 +27,7 @@ module.exports = function (grunt) {
     // grunt build -- use yarn build instead!
     // - Builds the client without a watch task
     grunt.registerTask('build', 'Build client app in development mode',
-        ['subgrunt:init', 'clean:tmp', 'ember']);
+        ['clean:tmp', 'ember']);
 
     // Helpers for common deprecated tasks
     grunt.registerTask('main', function () {
