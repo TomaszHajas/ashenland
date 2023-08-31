@@ -16,7 +16,10 @@ const models = require('../../models');
 const {GhostMailer} = require('../mail');
 const jobsService = require('../jobs');
 const VerificationTrigger = require('@tryghost/verification-trigger');
+const DomainEvents = require('@tryghost/domain-events');
+const {LastSeenAtUpdater} = require('@tryghost/members-events-service');
 const events = require('../../lib/common/events');
+const DatabaseInfo = require('@tryghost/database-info');
 
 const messages = {
     noLiveKeysInDevelopment: 'Cannot use live stripe keys in development. Please restart in production mode.',
@@ -35,7 +38,7 @@ const membersConfig = new MembersConfigProvider({
 const membersStats = new MembersStats({
     db: db,
     settingsCache: settingsCache,
-    isSQLite: config.get('database:client') === 'sqlite3'
+    isSQLite: DatabaseInfo.isSQLite(db.knex)
 });
 
 let membersApi;
@@ -125,6 +128,13 @@ module.exports = {
             });
         }
 
+        module.exports.ssr = MembersSSR({
+            cookieSecure: urlUtils.isSSL(urlUtils.getSiteUrl()),
+            cookieKeys: [settingsCache.get('theme_session_secret')],
+            cookieName: 'ghost-members-ssr',
+            getMembersApi: () => module.exports.api
+        });
+
         verificationTrigger = new VerificationTrigger({
             configThreshold: _.get(config.get('hostSettings'), 'emailVerification.importThreshold'),
             isVerified: () => config.get('hostSettings:emailVerification:verified') === true,
@@ -132,7 +142,7 @@ module.exports = {
             sendVerificationEmail: ({subject, message, amountImported}) => {
                 const escalationAddress = config.get('hostSettings:emailVerification:escalationAddress');
                 const fromAddress = config.get('user_email');
-    
+
                 if (escalationAddress) {
                     ghostMailer.send({
                         subject,
@@ -149,6 +159,16 @@ module.exports = {
             membersStats,
             Settings: models.Settings,
             eventRepository: membersApi.events
+        });
+
+        new LastSeenAtUpdater({
+            models: {
+                Member: models.Member
+            },
+            services: {
+                domainEvents: DomainEvents,
+                settingsCache
+            }
         });
 
         (async () => {
@@ -181,13 +201,7 @@ module.exports = {
         return membersSettings;
     },
 
-    ssr: MembersSSR({
-        cookieSecure: urlUtils.isSSL(urlUtils.getSiteUrl()),
-        cookieKeys: [settingsCache.get('theme_session_secret')],
-        cookieName: 'ghost-members-ssr',
-        cookieCacheName: 'ghost-members-ssr-cache',
-        getMembersApi: () => module.exports.api
-    }),
+    ssr: null,
 
     stripeConnect: require('./stripe-connect'),
 

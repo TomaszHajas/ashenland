@@ -42,10 +42,19 @@ module.exports = {
                         password: frame.data.setup[0].password,
                         blogTitle: frame.data.setup[0].blogTitle,
                         theme: frame.data.setup[0].theme,
+                        accentColor: frame.data.setup[0].accentColor,
+                        description: frame.data.setup[0].description,
                         status: 'active'
                     };
 
                     return auth.setup.setupUser(setupDetails);
+                })
+                .then((data) => {
+                    try {
+                        return auth.setup.doFixtures(data, api.products);
+                    } catch (e) {
+                        return data;
+                    }
                 })
                 .then((data) => {
                     try {

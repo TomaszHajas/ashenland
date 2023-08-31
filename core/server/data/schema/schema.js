@@ -8,6 +8,33 @@
  * Long text = length 1,000,000,000
  */
 module.exports = {
+    newsletters: {
+        id: {type: 'string', maxlength: 24, nullable: false, primary: true},
+        name: {type: 'string', maxlength: 191, nullable: false, unique: true},
+        description: {type: 'string', maxlength: 2000, nullable: true},
+        slug: {type: 'string', maxlength: 191, nullable: false, unique: true},
+        sender_name: {type: 'string', maxlength: 191, nullable: false},
+        sender_email: {type: 'string', maxlength: 191, nullable: true},
+        sender_reply_to: {type: 'string', maxlength: 191, nullable: false, defaultTo: 'newsletter', validations: {isIn: ['newsletter', 'support']}},
+        status: {type: 'string', maxlength: 50, nullable: false, defaultTo: 'active'},
+        visibility: {
+            type: 'string',
+            maxlength: 50,
+            nullable: false,
+            defaultTo: 'members'
+        },
+        subscribe_on_signup: {type: 'bool', nullable: false, defaultTo: true},
+        sort_order: {type: 'integer', nullable: false, unsigned: true, defaultTo: 0},
+        header_image: {type: 'string', maxlength: 2000, nullable: true},
+        show_header_icon: {type: 'bool', nullable: false, defaultTo: true},
+        show_header_title: {type: 'bool', nullable: false, defaultTo: true},
+        title_font_category: {type: 'string', maxlength: 191, nullable: false, defaultTo: 'sans_serif', validations: {isIn: ['serif', 'sans_serif']}},
+        title_alignment: {type: 'string', maxlength: 191, nullable: false, defaultTo: 'center', validations: {isIn: ['center', 'left']}},
+        show_feature_image: {type: 'bool', nullable: false, defaultTo: true},
+        body_font_category: {type: 'string', maxlength: 191, nullable: false, defaultTo: 'sans_serif', validations: {isIn: ['serif', 'sans_serif']}},
+        footer_content: {type: 'text', maxlength: 1000000000, nullable: true},
+        show_badge: {type: 'bool', nullable: false, defaultTo: true}
+    },
     posts: {
         id: {type: 'string', maxlength: 24, nullable: false, primary: true},
         uuid: {type: 'string', maxlength: 36, nullable: false, validations: {isUUID: true}},
@@ -56,6 +83,7 @@ module.exports = {
         codeinjection_foot: {type: 'text', maxlength: 65535, nullable: true},
         custom_template: {type: 'string', maxlength: 100, nullable: true},
         canonical_url: {type: 'text', maxlength: 2000, nullable: true},
+        newsletter_id: {type: 'string', maxlength: 24, nullable: true, references: 'newsletters.id'},
         '@@UNIQUE_CONSTRAINTS@@': [
             ['slug', 'type']
         ]
@@ -381,6 +409,13 @@ module.exports = {
         slug: {type: 'string', maxlength: 191, nullable: false, unique: true},
         active: {type: 'boolean', nullable: false, defaultTo: true},
         welcome_page_url: {type: 'string', maxlength: 2000, nullable: true},
+        visibility: {
+            type: 'string',
+            maxlength: 50,
+            nullable: false,
+            defaultTo: 'none',
+            validations: {isIn: [['public', 'none']]}
+        },
         monthly_price_id: {type: 'string', maxlength: 24, nullable: true},
         yearly_price_id: {type: 'string', maxlength: 24, nullable: true},
         description: {type: 'string', maxlength: 191, nullable: true},
@@ -431,6 +466,12 @@ module.exports = {
         product_id: {type: 'string', maxlength: 24, nullable: false, references: 'products.id', cascadeDelete: true},
         sort_order: {type: 'integer', nullable: false, unsigned: true, defaultTo: 0}
     },
+    members_cancel_events: {
+        id: {type: 'string', maxlength: 24, nullable: false, primary: true},
+        member_id: {type: 'string', maxlength: 24, nullable: false, references: 'members.id', cascadeDelete: true},
+        from_plan: {type: 'string', maxlength: 255, nullable: false},
+        created_at: {type: 'dateTime', nullable: false}
+    },
     members_payment_events: {
         id: {type: 'string', maxlength: 24, nullable: false, primary: true},
         member_id: {type: 'string', maxlength: 24, nullable: false, references: 'members.id', cascadeDelete: true},
@@ -479,7 +520,9 @@ module.exports = {
     },
     members_paid_subscription_events: {
         id: {type: 'string', maxlength: 24, nullable: false, primary: true},
+        type: {type: 'string', maxlength: 50, nullable: true},
         member_id: {type: 'string', maxlength: 24, nullable: false, references: 'members.id', cascadeDelete: true},
+        subscription_id: {type: 'string', maxlength: 24, nullable: true},
         from_plan: {type: 'string', maxlength: 255, nullable: true},
         to_plan: {type: 'string', maxlength: 255, nullable: true},
         currency: {type: 'string', maxLength: 3, nullable: false},
@@ -617,6 +660,7 @@ module.exports = {
         plaintext: {type: 'text', maxlength: 1000000000, fieldtype: 'long', nullable: true},
         track_opens: {type: 'bool', nullable: false, defaultTo: false},
         submitted_at: {type: 'dateTime', nullable: false},
+        newsletter_id: {type: 'string', maxlength: 24, nullable: true, references: 'newsletters.id'},
         created_at: {type: 'dateTime', nullable: false},
         created_by: {type: 'string', maxlength: 24, nullable: false},
         updated_at: {type: 'dateTime', nullable: true},
@@ -698,5 +742,10 @@ module.exports = {
             }
         },
         value: {type: 'text', maxlength: 65535, nullable: true}
+    },
+    members_newsletters: {
+        id: {type: 'string', maxlength: 24, nullable: false, primary: true},
+        member_id: {type: 'string', maxlength: 24, nullable: false, references: 'members.id', cascadeDelete: true},
+        newsletter_id: {type: 'string', maxlength: 24, nullable: false, references: 'newsletters.id', cascadeDelete: true}
     }
 };

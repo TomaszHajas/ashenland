@@ -27,7 +27,7 @@ module.exports = function (grunt) {
     // grunt build -- use yarn build instead!
     // - Builds the client without a watch task
     grunt.registerTask('build', 'Build client app in development mode',
-        ['clean:tmp', 'ember']);
+        ['subgrunt:init', 'clean:tmp', 'ember']);
 
     // Helpers for common deprecated tasks
     grunt.registerTask('main', function () {
@@ -220,7 +220,7 @@ module.exports = function (grunt) {
                     ]
                 },
                 files: {
-                    'core/server/frontend/ghost.min.css': 'core/frontend/public/ghost.css'
+                    'core/frontend/public/ghost.min.css': 'core/frontend/public/ghost.css'
                 }
             }
         },
@@ -365,13 +365,11 @@ module.exports = function (grunt) {
                 src: ['<%= paths.releaseBuild %>/**']
             });
 
-            /*
             if (!grunt.option('skip-update')) {
                 grunt.task
                     .run('update_submodules:pinned')
                     .run('subgrunt:init');
             }
-            */
 
             grunt.task
                 .run('clean:built')

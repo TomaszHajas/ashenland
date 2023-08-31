@@ -15,6 +15,7 @@ const BACKUP_TABLES = [
     'members_stripe_customers_subscriptions',
     'migrations',
     'migrations_lock',
+    'newsletters',
     'oauth',
     'permissions',
     'permissions_roles',
@@ -31,6 +32,7 @@ const BACKUP_TABLES = [
     'mobiledoc_revisions',
     'email_batches',
     'email_recipients',
+    'members_cancel_events',
     'members_payment_events',
     'members_login_events',
     'members_email_change_events',
@@ -38,6 +40,7 @@ const BACKUP_TABLES = [
     'members_paid_subscription_events',
     'members_subscribe_events',
     'members_product_events',
+    'members_newsletters',
     'offers',
     'offer_redemptions'
 ];

@@ -70,12 +70,12 @@ const getOfferData = async function (req, res) {
 
 const updateMemberData = async function (req, res) {
     try {
-        const data = _.pick(req.body, 'name', 'subscribed');
+        const data = _.pick(req.body, 'name', 'subscribed', 'newsletters');
         const member = await membersService.ssr.getMemberDataFromSession(req, res);
         if (member) {
             const options = {
                 id: member.id,
-                withRelated: ['stripeSubscriptions', 'stripeSubscriptions.customer', 'stripeSubscriptions.stripePrice']
+                withRelated: ['stripeSubscriptions', 'stripeSubscriptions.customer', 'stripeSubscriptions.stripePrice', 'newsletters']
             };
             const updatedMember = await membersService.api.members.update(data, options);
 
@@ -110,9 +110,13 @@ const getPortalProductPrices = async function () {
             monthlyPrice: product.monthlyPrice,
             yearlyPrice: product.yearlyPrice,
             benefits: product.benefits,
+            active: product.active,
             type: product.type,
+            visibility: product.visibility,
             prices: productPrices
         };
+    }).filter((product) => {
+        return !!product.active;
     });
     const defaultProduct = products.find((product) => {
         return product.type === 'paid';
@@ -129,6 +133,11 @@ const getPortalProductPrices = async function () {
     };
 };
 
+const getSiteNewsletters = async function () {
+    const newsletters = await models.Newsletter.findAll();
+    return newsletters.toJSON();
+};
+
 const getMemberSiteData = async function (req, res) {
     const isStripeConfigured = membersService.config.isStripeConnected();
     const domain = urlUtils.urlFor('home', true).match(new RegExp('^https?://([^/:?#]+)(?:[/:?#]|$)', 'i'));
@@ -140,7 +149,7 @@ const getMemberSiteData = async function (req, res) {
     }
     const {products = [], prices = []} = await getPortalProductPrices() || {};
     const portalVersion = config.get('portal:version');
-
+    const newsletters = await getSiteNewsletters();
     const response = {
         title: settingsCache.get('title'),
         description: settingsCache.get('description'),
@@ -166,6 +175,11 @@ const getMemberSiteData = async function (req, res) {
         prices,
         products
     };
+
+    if (labsService.isSet('multipleNewsletters')) {
+        response.newsletters = newsletters;
+    }
+
     if (labsService.isSet('multipleProducts')) {
         response.portal_products = settingsCache.get('portal_products');
     }
@@ -198,7 +212,7 @@ const createSessionFromMagicLink = async function (req, res, next) {
 
         const action = req.query.action;
 
-        if (action === 'signup' || action === 'signup-paid') {
+        if (action === 'signup' || action === 'signup-paid' || action === 'subscribe') {
             let customRedirect = '';
             const mostRecentActiveSubscription = subscriptions
                 .sort((a, b) => {
