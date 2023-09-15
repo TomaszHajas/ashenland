@@ -163,14 +163,14 @@
     "rss": "1.2.2",
     "sanitize-html": "2.7.0",
     "semver": "7.3.6",
+    "sqlite3": "5.0.8",
     "stoppable": "1.1.0",
     "tough-cookie": "4.0.0",
     "uuid": "8.3.2",
     "xml": "1.0.1"
   },
   "optionalDependencies": {
-    "@tryghost/html-to-mobiledoc": "1.8.6",
-    "sqlite3": "5.0.8"
+    "@tryghost/html-to-mobiledoc": "1.8.6"
   },
   "devDependencies": {
     "@lodder/grunt-postcss": "3.1.1",
