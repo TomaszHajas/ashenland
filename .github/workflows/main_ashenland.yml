@@ -11,7 +11,7 @@ on:
 
 jobs:
   build:
-    runs-on: [windows-latest, x86]
+    runs-on: [windows-latest]
 
     steps:
       - uses: actions/checkout@v2
@@ -23,7 +23,7 @@ jobs:
 
       - name: npm install, build, and test
         run: |
-          npm install --production --force
+          npm install --production --force --arch=ia32
           
       
       - name: Upload artifact for deployment job
@@ -33,7 +33,7 @@ jobs:
           path: .
 
   deploy:
-    runs-on: [windows-latest, x32]
+    runs-on: [windows-latest]
     needs: build
     environment:
       name: 'Production'
