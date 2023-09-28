@@ -23,7 +23,7 @@ jobs:
 
       - name: npm install, build, and test
         run: |
-          npm install --production --force --arch=ia32
+          npm install --production --force --target_arch=ia32 --target_platform=win32
           
       
       - name: Upload artifact for deployment job
