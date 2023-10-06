@@ -55,7 +55,7 @@
     },
     "site": {
         "title": {
-            "defaultValue": "Ghost",
+            "defaultValue": "Ashenland",
             "validations": {
                 "isLength": {
                     "max": 150
@@ -65,7 +65,7 @@
             "type": "string"
         },
         "description": {
-            "defaultValue": "Thoughts, stories and ideas",
+            "defaultValue": "The RPG blog",
             "validations": {
                 "isLength": {
                     "max": 200
@@ -75,11 +75,11 @@
             "type": "string"
         },
         "logo": {
-            "defaultValue": "",
+            "defaultValue": "https://svgshare.com/i/Ekm.svg",
             "type": "string"
         },
         "cover_image": {
-            "defaultValue": "https://static.ghost.org/v4.0.0/images/publication-cover.jpg",
+            "defaultValue": "https://i.imgur.com/SpHkqxV.png",
             "type": "string"
         },
         "icon": {
@@ -126,7 +126,7 @@
             "type": "string"
         },
         "navigation": {
-            "defaultValue": "[{\"label\":\"Home\",\"url\":\"/\"},{\"label\":\"About\",\"url\":\"/about/\"}]",
+            "defaultValue": "[{\"label\":\"Home\", \"url\":\"/\"},{\"label\":\"The System\", \"url\":\"/the-system/\"},{\"label\":\"The Players\", \"url\":\"/tag/player-interview/\"},{\"label\":\"Locations\", \"url\":\"/tag/location/\"},{\"label\":\"Deities\", \"url\":\"/tag/deity/\"},{\"label\":\"Characters\", \"url\":\"/tag/character/\"},{\"label\":\"Organizations\", \"url\":\"/tag/organization/\"},{\"label\":\"Randomizer\", \"url\":\"/randomizer/\"}]",
             "type": "array"
         },
         "secondary_navigation": {
@@ -208,7 +208,7 @@
     },
     "theme": {
         "active_theme": {
-            "defaultValue": "casper",
+            "defaultValue": "futura",
             "flags": "RO",
             "type": "string"
         }
