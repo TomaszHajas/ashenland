@@ -1,0 +1,107 @@
+Tree
+Dead tree
+Vine
+Fern patch
+Branch pile
+Leaf pile
+Bush
+Dead bush
+Spiky bush
+Tumbleweed
+Cactus
+Flower patch
+Grass patch
+Moss cluster
+Lichen cluster
+Herb patch
+Branch
+Tree log
+Tree stump
+Living stump
+Mushroom circle
+Mushroom cluster
+Giant mushroom
+Stone
+Stone pile
+Stone mound
+Boulder
+Rock
+Rock pillar
+Rock arch
+Rock spike
+Rock spire
+Stone rubble
+Mineral cluster
+Ore deposit
+Meteorite
+Pond
+Clay pit
+Tarpit
+Puddle
+Geyser
+Stream
+Waterfall
+Tidepool
+Salt basin
+Flotsam
+Driftkelp
+Dirt pile
+Dirt lump
+Dirt mound
+Mud pile
+Mud lump
+Mud mound
+Clay pile
+Clay lump
+Clay mound
+Snow pile
+Snow lump
+Snow mound
+Dune
+Rift
+Lava pool
+Lava stream
+Fire
+Pit
+Lair
+Burrow
+Hole
+Hollow
+Covert
+Crevice
+Cracked ground
+Stalagmite
+Stalactite
+Stalagnate
+Stromatolite
+Ice floe
+Ice pillar
+Ice arch
+Ice spike
+Ice spire
+Icicle cluster
+Snow pile
+Mud
+Quicksand
+Sinkhole
+Landslide
+Fog
+Haze
+Mist
+Smoke
+Bone pile
+Dung pile
+Humanoid corpse
+Animal corpse
+Humanoid skeleton
+Animal skeleton
+Blood spattering
+Humanoid footprints
+Animal footprints
+Guano pile
+Insect colony
+Hive
+Cobweb
+Cocoon
+Nest
+Beaver dam

@@ -1,0 +1,292 @@
+Archive
+College
+School
+University
+Nursery school
+Kindergarten
+Civic
+Sports venue
+Arena
+Shooting range
+Library
+Mudhif
+Community hall
+Church
+Priory
+Basilica
+Cathedral
+Duomo
+Chapel
+Oratory
+Martyrium
+Mosque
+Mihrab
+Surau
+Imambargah
+Monastery
+Mithraeum
+Shrine
+Synagogue
+Temple
+Fane
+Pagoda
+Stupa
+Gurdwara
+City hall
+Consulate
+Courthouse
+Embassy
+Fire station
+Meeting house
+Moot hall
+Parliament house
+Police station
+Post office
+Bank
+Assembly
+Arsenal
+Barracks
+Bunker
+Blockhouse
+Citadel
+Missile launch facility
+Airport terminal
+Runway
+Bus station
+Metro station
+Taxi station
+Railway station
+Railyard
+Signal box
+Lighthouse
+Shipyard
+Space port
+Hovercraft
+Ferry terminal
+Cruise terminal
+Boathouse
+Parking garage
+Hangar
+Bathhouse
+Film studio
+Gym
+Folly
+Aul
+Fort
+Fortress
+Palace
+Keep
+Castle
+Tower
+Turret
+Watchtower
+Clock tower
+Water tower
+Gatehouse
+Barbican
+Armory
+Villa
+Shack
+Hovel
+House
+Cottage
+Hut
+Cabin
+Mansion
+Tent
+Campsite
+Outpost
+Pavillon
+Amphitheatre
+Bath
+Fightclub
+Club
+Cornerclub
+Theatre
+Colloseum
+Circus
+Forum
+Sanctuary
+Mortuary
+Charnel
+Cemetary
+Boneyard
+Crematorium
+Barrow
+Tomb
+Crypt
+Graveyard
+Pyramid
+Ziggurat
+Labirynth
+Dungeon
+Court
+Mine
+Quarry
+Shaft
+Harbor
+Port
+Watermill
+Waterworks
+Shop
+Marketplace
+Stockpile
+Treasury
+Trove
+Granary
+Hospital
+Infirmary
+Asylum
+Inn
+Tavern
+Cantina
+Brothel
+Mill
+Windmill
+Prison
+Jail
+Stable
+Warehouse
+Blacksmith
+Workshop
+Guild
+Laboratory
+Apothecary
+Loom
+Bakery
+Brewery
+Frame
+Abbey
+Amphitheater
+Apartment
+Aqueduct
+Arch
+Assembly hall
+Barn
+Boarding house
+Bridge
+Bungalow
+Bunkhouse
+Cabana
+Capitol
+Carport
+Catacomb
+Chalet
+Chateau
+Cinema
+Clubhouse
+Compound
+Concert hall
+Condominium
+Conservatory
+Depot
+Detached house
+Dock
+Dome
+Dormitory
+Double wide house
+Duplex
+Dwelling
+Earth-sheltered house
+Exposition hall
+Factory
+Farm
+Farmhouse
+Ferry slip
+Firehouse
+Forge
+Foundry
+Gallery
+Garage
+Gas station
+Gazebo
+Geodesic dome
+Greenhouse
+Gymnasium
+Hall
+Haunted house
+Headquarters
+High-rise
+Home
+Hostel
+Hot house
+Hotel
+Houseboat
+Housing project
+Hunting lodgehut
+Igloo
+Kiosk
+Lean-to
+Lodge
+Log cabin
+Longhouse
+Mall
+Manor
+Manse
+Marina
+Market
+Mausoleum
+Meeting hall
+Minaret
+Mobile home
+Monument
+Motel
+Museum
+Nursing home
+Observatory
+Office building
+Opera house
+Outbuilding
+Outhouse
+Parliament
+Pavilion
+Plant
+Playhouse
+Pool house
+Power plant
+Prefab building
+Pump house
+Quonset hut
+Ranch
+Rectory
+Refinery
+Residence
+Restaurant
+Roller rink
+Roundhouse
+Rowhouse
+Shed
+Shelter
+Shopping center
+Shopping mall
+Silo
+Skating rink
+Skyscraper
+Skyway
+Spire
+Split-level house
+Stadium
+State house
+Station
+Steeple
+Emporium
+Store
+Storehouse
+Strip mall
+Structure
+Studio
+Supermarket
+Sweatshop
+Symphony
+Tenement
+Terminal
+Theater
+Tipi
+Toll house
+Townhouse
+Treehouse
+Triplex
+Timber-framed house
+Vault
+Vicarage
+Yurt

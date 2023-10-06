@@ -1,0 +1,251 @@
+Platform
+Support
+Post
+Pillar
+Column
+Support beam
+Arch
+Arcade
+Arc
+Dome
+Stairs
+Staircase
+Ladder
+Stepladder
+Corridor
+Tunnel
+Vomitorium
+Trench
+Room
+Ceiling
+Floor
+Roof
+Chimney
+Smokestack
+Chute
+Crane
+Mosaic
+Window
+Painting
+Mirror
+Balcony
+Spire
+Bulwark
+Wall
+Rampart
+Pallisade
+Moat
+Quay
+Fence
+Trellis
+Railing
+Balustrade
+Terrace
+Patio
+Drying frame
+Pen
+Barrier
+Barricade
+Portal
+Door
+Gate
+Grate
+Pylon
+Crashsite
+Wreckage
+Menhir
+Statue
+Obelisk
+Cairn
+Grave
+Tombstone
+Coffin
+Mortsafe
+Casket
+Tribune
+Stocks
+Gallows
+Cesspit
+Stake
+Rack
+Gibber
+Cage
+Ditch
+Pit
+Pitfall
+Pool
+Receptacle
+Font
+Altar
+Confession booth
+Trap
+Pitfall trap
+Object-fall trap
+Weapon trap
+Cage trap
+Maypole
+Totem
+Signpost
+Sign
+Buoy
+Banner
+Milestone
+Crossroads
+Roundabout
+Junction
+Forkroad
+Path
+Road
+Street
+Avenue
+Alley
+Tract
+Bridge
+Footbridge
+Drawbridge
+Lift
+Elevator
+Dumbwaiter
+Excavation
+Stockpile
+Rig
+Aqueduct
+Fountain
+Bird bath
+Cistern
+Latrine
+Canal
+Channel
+Dam
+Sewers
+Composter
+Dump
+Nest
+Lair
+Den
+Hole
+Manhole
+Skep
+Coop
+Hutch
+Dovecote
+Croft
+Agora
+Square
+Stall
+Well
+Crane
+Farm
+Plantation
+Garden
+Furnace
+Crucible
+Forge
+Oven
+Fireplace
+Hearth
+Kiln
+Smelter
+Fridge
+Junction box
+Traffic light
+Vending machine
+Cash machine
+Photo booth
+Parking meter
+Fire hydrant
+Dock
+Chair
+Armchair
+Footstool
+Stool
+Rocking chair
+Bench
+Couch
+Bed
+Bunk bed
+Hammock
+Mattress
+Jukebox
+Noria
+Washstand
+Mangle
+Washing machine
+Spinning wheel
+Potter's wheel
+Quern
+Loom
+Mannequin
+Effigy
+Snowman
+Churn
+Press
+Table
+Desk
+Drawing board
+Pedestal
+End table
+Display case
+Workbench
+Bookcase
+Cabinet
+Closet
+Cupboard
+Pantry
+Chest of drawers
+Chest
+Coat rack
+Drawer
+Hatstand
+Stand
+Shelf
+Sideboard
+Safe
+Dumpster
+Umbrella stand
+Weapon stand
+Armor stand
+Wardrobe
+Wine rack
+Aquarium
+Bathtub
+Cauldron
+Weapon rack
+Grand piano
+Harpsichord
+Bottle
+Demijohn
+Jar
+Urn
+Barrel
+Can
+Drum
+Tub
+Box
+Crate
+Bag
+Sack
+Lever
+Valve
+Trampoline
+Lamp
+Torch sconce
+Torch stand
+Chandelier
+Brazier
+Bonfire
+Stone pile
+Scrap pile
+Wood pile
+Hay bale
+Dumpster
+Garbage bin
+Siege Tower
+Trebuchet
+Catapult
+Mangonel
+Ballista
+Ship
+Ferry
+Automobile
+Aeroplane

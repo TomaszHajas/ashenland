@@ -1,0 +1,63 @@
+Avian
+Angel
+Angelkin
+Centaur
+Leprechaun
+Dryad
+Fairy
+Pixie
+Spriggan
+Dragonkin
+Dwarf
+Elf
+Half-Elf
+Elemental
+Gnoll
+Gnome
+Goblin
+Gremlin
+Giant
+Half-Giant
+Orc
+Half-Orc
+Satyr
+Faun
+Ogre
+Troll
+Halfling
+Hobgoblin
+Human
+Black Human
+Kobold
+Lizardkin
+Siren
+Minotaur
+Naga
+Mutant
+Undead
+Zombie
+Ghoul
+Skeleton
+Mummy
+Hag
+Demon
+Demonkin
+Ent
+Harpy
+Mermaid
+Merman
+Succubus
+Triton
+Troglodyte
+Vampire
+Robot
+Cyborg
+Android
+Werewolf
+Grey Alien
+Insectoid
+Nordic Alien
+Astral Being
+Alien
+Little Green Man
+Reptilian
