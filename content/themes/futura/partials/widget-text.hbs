@@ -1,0 +1,24 @@
+<!-- start widget -->
+<div class="widget">
+	<h4 id="title" class="title">GMT+1 Time</h4>
+	<div class="content">
+		<h4 id="date"></h4>
+		<h4 id="time"></h4>
+	</div>
+	<script>
+		var today = new Date();
+		var date = today.toLocaleString('en-AU', { day: '2-digit', month: 'long', year: 'numeric', timeZone: 'Europe/Berlin' });
+		var time = today.toLocaleString('en-EN', {hour: '2-digit', minute: '2-digit',  hour12: false, timeZone: 'Europe/Berlin' });
+		document.getElementById("date").innerHTML = date;
+		document.getElementById("time").innerHTML = time;
+		
+		fetch("https://api.allorigins.win/raw?url=https://ipapi.co/85.214.132.115/json").then(function(response) {
+  			return response.json();
+		}).then(function(data) {
+  			if(data.utc_offset == "+0200"){
+            			document.getElementById("title").innerHTML = "GMT+2 Time";
+        		}
+		});
+	</script>
+</div>
+<!-- end widget -->
