@@ -623,7 +623,7 @@
                     "featured": false,
                     "type": "post",
                     "status": "published",
-                    "visibility": "public",
+                    "visibility": "members",
                     "created_by": "1",
                     "published_by": "1",
                     "author_id": "1"
@@ -635,7 +635,7 @@
                     "featured": false,
                     "type": "page",
                     "status": "published",
-                    "visibility": "public",
+                    "visibility": "members",
                     "created_by": "1",
                     "published_by": "1",
                     "author_id": "1"
@@ -1955,6 +1955,7 @@
                     "featured": false,
                     "page": true,
                     "status": "published",
+                    "visibility": "members",
                     "meta_title": null,
                     "meta_description": null,
                     "created_by": "1",
@@ -2003,6 +2004,7 @@
                     "featured": false,
                     "page": true,
                     "status": "published",
+                    "visibility": "members",
                     "meta_title": null,
                     "meta_description": null,
                     "created_by": "1",
