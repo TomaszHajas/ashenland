@@ -124,7 +124,6 @@ test/coverage
 /config.*.json
 
 # Built asset files
-/core/built
 /core/frontend/public/ghost.min.css
 /core/server/web/admin/views/*.html
 
