@@ -1501,7 +1501,7 @@
                 {
                     "title": "Titanium City",
                     "slug": "titanium-city",
-                    "mobiledoc": "{\"version\":\"0.3.1\",\"atoms\":[],\"cards\":[[\"markdown\",{\"markdown\":\"The city consists of five major districts:\\n* Port District - docks, repair yards, warehouses and taverns\\n* Communal District - apartments of various categories, hosting low-lifes as well as rich citizens\\n* Industrial District - automated factories for production of materials and goods\\n* Trade District - shops and trading centers providing services and distribution of finished goods among the city's population\\n* Iron District - public services buildings and skyscrapers of the richest technocratic families forming Iron Council\"}]],\"markups\":[],\"sections\":[[1,\"p\",[[0,[],0,\"Giant, futuristic megacity located on eastern coast of the Ashenland's desert wastelands. It was built by those who remained after the great nuclear war between Alisont empire and Underworld's alliance. The city is known for its economical imbalance of inhabitants, ruled by technocratic elites who disregard the poor and eradicate criminals by force. Those who mess with the high-rank officials, have a hard time hiding from omni-present CCTV recording devices and drones patrolling the streets, being the eyes of advanced jurisdiction AI.\"]]],[10,0],[1,\"h2\",[[0,[],0,\"Criminal activity\"]]],[1,\"p\",[[0,[],0,\"The places which aren't visited by the government's ordinators quickly become safe spots for the local low life - usually on the outskirts or in city sewers. Those who were marked for unlawful conduct but still wish to work around the city's rules often form gangs which procure illegal goods and services for rich clientele from the city centre.\"]]],[1,\"p\",[[0,[],0,\"Over time, some of the outlaws formed a resistance movement against the unjust oppression of people. Their liberal ideology made them recognized as rebels, hunted down by police and special forces.\"]]]],\"ghostVersion\":\"4.0\"}",
+                    "mobiledoc": "{\"version\":\"0.3.1\",\"atoms\":[],\"cards\":[[\"markdown\",{\"markdown\":\"The city consists of five major districts:\\n* Port District - docks, repair yards, warehouses and taverns\\n* Communal District - apartments of various categories, hosting low-lifes as well as rich citizens\\n* Industrial District - automated factories for production of materials and goods\\n* Trade District - shops and trading centers providing services and distribution of finished goods among the city's population\\n* Iron District - public services buildings and skyscrapers of the richest technocratic families forming Iron Council\"}]],\"markups\":[],\"sections\":[[1,\"p\",[[0,[],0,\"Giant, futuristic megacity located on eastern coast of the Ashenland's desert wastelands. It was built by those who remained after the great nuclear war between Alisont empire and Underworld's alliance. The city is known for its economical imbalance of inhabitants, ruled by technocratic elites who disregard the poor and eradicate criminals by force. Those who mess with the high-rank officials, have a hard time hiding from omni-present CCTV recording devices and drones patrolling the streets, being the eyes of advanced jurisdiction AI.\"]]],[10,0],[1,\"h2\",[[0,[],0,\"Criminal activity\"]]],[1,\"p\",[[0,[],0,\"The places which aren't visited by the government's regulators quickly become safe spots for the local low life - usually on the outskirts or in city sewers. Those who were marked for unlawful conduct but still wish to work around the city's rules often form gangs which procure illegal goods and services for rich clientele from the city centre.\"]]],[1,\"p\",[[0,[],0,\"Over time, some of the outlaws formed a resistance movement against the unjust oppression of people. Their liberal ideology made them recognized as rebels, hunted down by police and special forces.\"]]]],\"ghostVersion\":\"4.0\"}",
                     "page": false,
                     "status": "published",
                     "meta_title": null,
@@ -1512,6 +1512,21 @@
                     "tag_id:": "5d7516b559216774548a41df",
                     "custom_excerpt": "",
                     "feature_image": "https://i.imgur.com/XqoV9yI.png"
+                },
+                {
+                    "title": "Titanium City's Reformatory Facility",
+                    "slug": "titanium-citys-reformatory-facility",
+                    "mobiledoc": "{\"version\":\"0.3.1\",\"atoms\":[],\"cards\":[],\"markups\":[],\"sections\":[[1,\"p\",[[0,[],0,\"Even before Titanium City's founding, the place served metal mining purposes by many factions over the years. It was later secured by Titanium City's military, to be used as involuntary labor camp for criminalists and political opponents of city's government. The facility is heavily guarded both by armed men and by prototypical, armed androids designed and created by SAEO Project foundation.\"]]],[1,\"p\",[[0,[],0,\"It is a circular area enclosed in eight meters tall, concrete wall which connects to offices and guardhouse from north. The central part of the facility is occupied by prisoners' barracks. There's also a station for carts departing to and from nearby titanium mine.\"]]],[1,\"p\",[[0,[],0,\"The daily routine of the prisoners starts with morning drill, then prisoners get into electric carts and drive for about a mile along a walled track to the titanium mine, where they're handed some food, water and mining and repair equipment. Afterwards they go down the shaft using an elevator and they mine metals until the late afternoon. Then they return to the surface, are given something to eat and can wash themselves.\"]]],[1,\"p\",[[0,[],0,\"Those who belong to gangs often get more lucrative and less dangerous jobs, like cooking, inspecting prisoners' equipment and leading the morning drills, as they are respected by other prisoners and treated well by the guards. Rumor says, that some of the gang members were finally let out of the reformatory facility for proactive behavior, but others say they must have simply bribed the overseer. For people who weren't that lucky to join a gang, visiting this place is a life-long sentence.\"]]]],\"ghostVersion\":\"4.0\"}",
+                    "page": false,
+                    "status": "published",
+                    "meta_title": null,
+                    "meta_description": null,
+                    "created_by": "1",
+                    "published_by": "1",
+                    "author_id": "1",
+                    "tag_id:": "5d7516b559216774548a41df",
+                    "custom_excerpt": "",
+                    "feature_image": "https://i.imgur.com/WnOLyaB.png"
                 },
                 {
                     "title": "Ashenland",
@@ -2231,6 +2246,8 @@
                 "temple-of-sacred-oil": ["Location"],
                 "town-on-fire": ["Location"],
                 "lake-of-alestria": ["Location"],
+                "titanium-city": ["Location"],
+                "titanium-citys-reformatory-facility": ["Location"],
                 "ketu": ["Location"],
                 "balros": ["Deity"],
                 "kousher": ["Deity"],
