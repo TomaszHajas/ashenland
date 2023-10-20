@@ -258,11 +258,15 @@ Urchin
 Trickster
 Thug
 Bandit
+Grunt
+Murderer
 Terrorist
 Robber
 Highwayman
 Grave Robber
 Assassin
+Killer
+Hitman
 Ninja
 Samurai
 Bounty Hunter
@@ -296,6 +300,10 @@ Courtesan
 Potter
 Alchemist
 Chemist
+Biochemist
+Agrochemist
+Astrochemist
+Radiochemist
 Pharmacist
 Pirate
 Swashbuckler
@@ -320,13 +328,17 @@ Representative
 Influencer
 Boss
 Chief
+Dictator
+Hegemon
 Ordinator
 Leader
 Commander
 President
 Politician
+Demagogue
 Minister
 King
+Archking
 Paramount King
 Viceroy
 Governor
@@ -339,6 +351,8 @@ Jarl
 Elder
 Count
 Sultan
+Duke
+Archduke
 Baron
 Steward
 Majordomo
@@ -467,12 +481,32 @@ Apostle
 Graduate
 Alumnus
 Mathematician
+Analyst
+Statistician
 Physicist
+Astrophysicist
+Quantum Physicist
+Radiophysicist
 Geographer
 Geologist
+Geophysicist
+Geochemist
+Volcanologist
+Gemologist
+Seismologist
+Sedimentologist
 Naturalist
 Biologist
+Microbiologist
+Astrobiologist
+Ecologist
+Entomologist
+Ichthyologist
+Mammalogist
+Ornithologist
+Geneticist
 Zoologist
+Botanist
 Sociologist
 Humanist
 Astronomer
@@ -621,9 +655,15 @@ Cadet
 Corporal
 Sergeant
 Arsonist
+Poisoner
+Strangler
 Shipmaker
 Necromancer
 Pyromancer
+Electromancer
+Geomancer
+Aquamancer
+Aeromancer
 Technomancer
 Rider
 Raider
@@ -873,6 +913,7 @@ Privycleaner
 Curator
 Pimp
 Prostitute
+Stripper
 Quartermaster
 Ragpicker
 Riveter
