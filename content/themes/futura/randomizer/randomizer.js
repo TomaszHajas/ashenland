@@ -164,6 +164,16 @@
 			if(regexp.exec(template) != null){
 				firstMatch = regexp.exec(template)[0];
 			}
+            conjugation = "";
+            furtherString = template.substring(firstMatch.index, template.length);
+            console.log(furtherString);
+            if(furtherString.startsWith("ing")){
+                conjugation = "ing";
+                console.log(conjugation);
+            }else if(furtherString.startsWith("ed")){
+                conjugation = "ed";
+                console.log(conjugation);
+            }
 			nestedRegexp = /\[[^\]]*\[/;
 			nestedMatch = nestedRegexp.exec(template);
 			firstMatchNoBrackets = firstMatch.replace(/[\[\]']+/g,'');
