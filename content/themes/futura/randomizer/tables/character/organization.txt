@@ -34,6 +34,7 @@ Squad
 Squadron
 Legion
 Gathering
+Congregation
 Enterprise
 Coalition
 Collective
