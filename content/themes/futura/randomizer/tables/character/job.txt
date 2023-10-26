@@ -428,6 +428,8 @@ Man-at-arms
 Arcanist
 Mage
 Archmage
+Thaumaturge
+Diviner
 Runepriest
 Artificer
 Warden
