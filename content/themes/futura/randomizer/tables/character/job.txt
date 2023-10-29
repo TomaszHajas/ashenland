@@ -667,6 +667,7 @@ Geomancer
 Aquamancer
 Aeromancer
 Technomancer
+Biomancer
 Rider
 Raider
 Marauder
