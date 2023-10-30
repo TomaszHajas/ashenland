@@ -27,6 +27,8 @@ Ornithopter
 Plane
 Biplane
 Multiplane
+Unmanned aerial vehicle
+Drone
 Hot air baloon
 Airship
 Spacecraft
