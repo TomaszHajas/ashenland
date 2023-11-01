@@ -837,6 +837,8 @@ Ornithopter
 Plane
 Biplane
 Multiplane
+Unmanned aerial vehicle
+Drone
 Hot air baloon
 Airship
 Spacecraft
@@ -1028,6 +1030,8 @@ Nuclear bomb
 Anti-matter bomb
 Graphite bomb
 Stink bomb
+Pipe bomb
+Sponge bomb
 Arrow
 Serrated arrow
 Bolt
