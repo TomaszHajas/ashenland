@@ -74,6 +74,7 @@ Anti-matter bomb
 Graphite bomb
 Stink bomb
 Pipe bomb
+Sponge bomb
 Arrow
 Serrated arrow
 Bolt
