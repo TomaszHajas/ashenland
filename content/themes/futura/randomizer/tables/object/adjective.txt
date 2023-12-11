@@ -222,6 +222,8 @@ Talking
 Vibrating
 Fake
 Trapped
+Transformed
+Transigured
 Unbreakable
 Immovable
 Waterproof
