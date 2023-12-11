@@ -888,6 +888,8 @@ Train
 Transcribe
 Transfer
 Transform
+Transpose
+Transfigure
 Translate
 Transport
 Trap
