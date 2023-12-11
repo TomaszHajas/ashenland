@@ -1063,6 +1063,7 @@ Secret
 Message
 Response
 Transformation
+Transfiguration
 Transition
 Rebirth
 Purification
