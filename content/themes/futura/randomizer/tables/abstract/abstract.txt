@@ -275,6 +275,7 @@ Hopefulness
 Horror
 Hostility
 Humanity
+Monstrosity
 Humiliation
 Humility
 Humor
