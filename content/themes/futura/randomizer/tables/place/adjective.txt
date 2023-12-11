@@ -38,6 +38,8 @@ Dangerous
 Peaceful
 Crowded
 Uninhabited
+Pristine
+Transformed
 Noisy
 Silent
 Spacious
