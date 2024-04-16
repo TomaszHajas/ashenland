@@ -844,6 +844,9 @@ Siever
 Silkmaker
 Smith
 Spectaclesmaker
+Spectator
+Onlooker
+Commoner
 Spooner
 Spurrer
 Stonecarver
