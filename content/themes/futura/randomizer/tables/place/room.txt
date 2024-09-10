@@ -70,6 +70,7 @@ Swimming pool
 Parlour
 Aviary
 Basement
+Oubliette
 Safe room
 Courtyard
 Recreation room
