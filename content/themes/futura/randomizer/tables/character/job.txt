@@ -128,6 +128,8 @@ Astronaut
 Signalman
 Caravaneer
 Adventurer
+Quester
+Seeker
 Expeditioner
 Traveler
 Outlander
