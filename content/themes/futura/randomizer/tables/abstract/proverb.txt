@@ -7,6 +7,7 @@ A chain is only as strong as its weakest link
 A dog is a man's best friend
 A fool and his money are soon parted
 A friend in need is a friend indeed
+A wise man can play a fool, but a fool can't play wise
 A friend to everyone is a friend to no one
 A journey of a thousand miles begins with a single step
 A little learning is a dangerous thing
@@ -44,6 +45,7 @@ An army marches on its stomach
 An eye for an eye makes the whole world blind
 Another day, another coin
 An ounce of prevention is worth a pound of cure
+Any sufficiently advanced technology is indistinguishable from magic
 Any port in a storm
 Any publicity is good publicity
 April showers bring forth May flowers
@@ -231,7 +233,9 @@ If ifs and ands were pots and pans, there would be no work for tinkers
 If it ain't broke, don't fix it
 If it were not for hope the heart would break
 If it were a snake, it would have bit you
+If it can be destroyed by truth, it deserves to be destroyed by truth
 If the shoe fits, wear it
+If you're the smartest person in the room, you're in the wrong room
 If the mountain will not come to Mohammed, then Mohammed must go to the mountain
 If the universe didn't need you you wouldn't be here
 If wealth is lost, nothing is lost. If health is lost, something is lost. If character is lost, everything is lost
@@ -414,6 +418,7 @@ Of course my horse
 Old soldiers never die, they just fade away
 Once bitten, twice shy
 One good turn deserves another
+One machine can do the work of fifty ordinary men.  No machine can do the work of one extraordinary man
 One half of the world does not know how the other half lives
 One hand washes the other
 One kind word can warm three winter months
@@ -515,6 +520,7 @@ The hand that rocks the cradle rules the world
 The husband is always the last to know
 The innocent seldom find an uncomfortable pillow
 The labourer is worthy of his hire
+The wise listen more than they speak
 It is the last straw that breaks the camel's back
 The law is an ass
 The leopard does not change his spots
@@ -524,6 +530,7 @@ The longest day must have an end
 The longest journey starts with a single step
 The moon is made of green cheese
 The more the merrier
+The test of a first-rate intelligence is the ability to hold two opposed ideas in mind at the same time and still retain the ability to function
 The more things change, the more they stay the same
 The only disability in life is a bad attitude
 The only way to understand a woman is to love her
